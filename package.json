@@ -1,0 +1,29 @@
+{
+  "name": "ioeth",
+  "version": "1.0.0",
+  "description": "An API for viewing ETH balance from an iOS app",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build": "node app.js"
+  },
+  "author": "Michael Martin",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.9",
+    "express": "^4.18.1",
+    "hardhat": "^2.9.9"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "hardhat": "^2.9.9"
+  }
+}
