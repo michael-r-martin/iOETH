@@ -1,15 +1,7 @@
-# Basic Sample Hardhat Project
+🚀 API endpoint is available at https://ioeth-7yo57vq7xq-nw.a.run.app
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+📝Instructions for use📝
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Add a "walletAddress" query parameter to the URL 🔗
+Make the walletAddress parameter equal to... you guessed it, the wallet you're looking up 😉 (accepts both addresses and ENS)
+You will receive a response containing a "balance" value, this is the amount of eth available in the provided wallet 🤑

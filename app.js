@@ -5,7 +5,7 @@ const app = express();
 
 const { ethers } = require("ethers");
 
-require("dotenv").config
+require("dotenv").config()
 
 app.get("/", (req, res) => {
     const walletAddress = req.query.walletAddress;
